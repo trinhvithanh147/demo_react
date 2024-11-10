@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout-wrapper{
+    @apply bg-white p-5 rounded-xl;
+}
+.layout-wrapper-2{
+    padding: 20px;
+    background-color: red;
+    @apply rounded-xl;
+}
+/* chứa những phần xử lý chung */
+.my-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* img{
+    @apply h-24;
+}
+p{
+    font-size: 20px;
+} */
+.my-active{
+    @apply text-red-500 bg-white !important;
+}
